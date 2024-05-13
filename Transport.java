@@ -4,6 +4,7 @@ import Street;
 
 public class Transport {
     private Queue<Street> streetsQueue;
+    private int pathLenght;
 
     public Transport() {
         this.streetsQueue = new LinkedList<>();
@@ -18,6 +19,10 @@ public class Transport {
     }
 
     public int numberOfStreets() {
+        return streetsQueue.size();
+    }
+
+    public int lenghtOfPath(Queue<Street> streetsQueue) {
         return streetsQueue.size();
     }
 }
