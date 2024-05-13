@@ -24,6 +24,10 @@ public class C implements K, B {
         return "Goodbye world";
     }
 
+    public string gw() {
+        return "Good morning world";
+    } 
+
     public double ee() {
         return 500.100;
     }
