@@ -1,4 +1,6 @@
-public class Car {
+import drive;
+
+public class Car implements drive {
     private String brand;
     private String model;
     private int year;
