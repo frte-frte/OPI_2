@@ -20,6 +20,10 @@ public class C implements K, B {
         return "Hello world";
     }
 
+    public String bb() {
+        return "Goodbye world";
+    }
+
     public double ee() {
         return 500.100;
     }
